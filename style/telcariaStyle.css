@@ -1,27 +1,26 @@
 body {
     background-color: #0197fd;
+    width:95%;
+    text-align:center;
+    text-indent: auto;
 }
 header {
   color:white;
+  align-content:center;
   text-align:right;
   font-family:courier;
-  padding:5px;
+  
 }
 
 #example1 {
-    background-image: url(../imgs/new/background.png), url(../imgs/new/logo_header.png);
-    background-position: right top, left top;
-    background-repeat: no-repeat, repeat;
-    padding: 15px;
+    width:80%;
+    background-image:url(../imgs/new/logo_header.png),url(../imgs/new/background.jpg);
+    background-position: left bottom, right bottom;
+    background-size: 80%,100%;
+    background-repeat:no-repeat, no-repeat;
+    padding:4%;
 }
 
-#logo1 {
-  background-image:url(../imgs/new/background.png);
-  color:white;
-  text-align:right;
-  font-family:courier;
-  padding:5px;
-}
 
 iframe {
     width: 90%;
@@ -29,6 +28,7 @@ iframe {
     background-color: white;
 }
 #footer {
+    width:80%;
     background-color:black;
     color:white;
     clear:both;
