@@ -1,15 +1,37 @@
 body {
-    background-color: lightblue;
+    background-color: #0197fd;
+}
+header {
+  color:white;
+  text-align:right;
+  font-family:courier;
+  padding:5px;
+}
+
+#example1 {
+    background-image: url(../imgs/new/background.png), url(../imgs/new/logo_header.png);
+    background-position: right top, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
 }
 
 #logo1 {
-    background-image: url(img_flwr.gif), url(paper.gif);
-    background-position: right bottom, left top;
-    background-repeat: no-repeat, repeat;
+  background-image:url(../imgs/new/background.png);
+  color:white;
+  text-align:right;
+  font-family:courier;
+  padding:5px;
 }
 
 iframe {
     width: 90%;
     align-self:center;
     background-color: white;
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
 }
