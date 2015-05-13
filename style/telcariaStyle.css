@@ -9,13 +9,13 @@ header {
   align-content:center;
   text-align:right;
   font-family:courier;
-  
+
 }
 
 #example1 {
     width:80%;
     background-image:url(../imgs/new/logo_header.png),url(../imgs/new/background.jpg);
-    background-position: left bottom, right bottom;
+    background-position: left bottom, right top;
     background-size: 80%,100%;
     background-repeat:no-repeat, no-repeat;
     padding:4%;
