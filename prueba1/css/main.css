@@ -2,6 +2,7 @@
 
 html {
     background-image: url(../img/background.jpg);
+    background-size:200%;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -89,12 +90,11 @@ body {
 
 }
 .footer-container {
-    border-top: 20px solid #e44d26;
+
 }
 
 
 .footer-container{
-    background: #f16529;
 }
 
 .title {
@@ -109,6 +109,8 @@ nav ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
+    color:#003366;
+
 }
 
 nav a {
