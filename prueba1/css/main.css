@@ -50,6 +50,12 @@ textarea {
     padding: 0.2em 0;
 }
 
+iframe {
+width: 150%;
+height:300%;
+margin: 0 auto;
+display: block;
+}
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
@@ -65,8 +71,12 @@ body {
 }
 
 /* ===================
-    ALL: Orange Theme
+    ALL: Telcaria Theme
    =================== */
+   .langu{
+     font-family: serif;
+    text-align: right;
+   }
 
 .header-container {
 
@@ -234,6 +244,7 @@ nav li:hover > ul {
            -moz-box-shadow: 0 5px 10px #aaa;
                 box-shadow: 0 5px 10px #aaa;
     }
+
 
 /* ============
     WIDE: Menu
