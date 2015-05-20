@@ -20,7 +20,6 @@ hr {
     height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
-    margin: 1em 0;
     padding: 0;
 }
 
@@ -50,12 +49,7 @@ textarea {
     padding: 0.2em 0;
 }
 
-iframe {
-width: 150%;
-height:300%;
-margin: 0 auto;
-display: block;
-}
+
 
 /* ===== Initializr Styles ==================================================
    Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
@@ -75,23 +69,27 @@ body {
    =================== */
    .langu{
      font-family: serif;
-    text-align: right;
+     text-align: right;
    }
 
 .header-container {
 
-    font-family:Arial;
+    font-family:Helvetica;
     text-align:right;
     background-image:url(../img/logo_header.png);
     background-position: left bottom;
-    background-size: 90%;
+    background-size: 1550px;
     background-repeat:no-repeat;
-    padding:4%;
-
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top:80px;
 }
 .menu-container {
+    margin-left: 3%;
+    margin-right:6%;
     background-color:#0197fd;
     color:#003366;
+
 }
 .main aside {
   background-image:url(../img/circles.png);
@@ -99,13 +97,7 @@ body {
   background-repeat:no-repeat;
 
 }
-.footer-container {
 
-}
-
-
-.footer-container{
-}
 
 .title {
     color: white;
@@ -116,10 +108,12 @@ body {
    ============== */
 
 nav ul {
+    float:center;
     margin: 0;
     padding: 0;
     list-style-type: none;
     color:#003366;
+
 
 }
 
@@ -205,10 +199,10 @@ nav li:hover > ul {
    ==================== */
 
     nav a {
-        float: left;
+        float:left;
         width: 10%;
         padding: 25px 2%;
-        margin-bottom: 0;
+        margin - bottom: 0;
     }
 
     nav li:first-child a {
@@ -238,12 +232,7 @@ nav li:hover > ul {
     WIDE: CSS3 Effects
    ==================== */
 
-    .header-container,
-    .main aside {
-        -webkit-box-shadow: 0 5px 10px #aaa;
-           -moz-box-shadow: 0 5px 10px #aaa;
-                box-shadow: 0 5px 10px #aaa;
-    }
+
 
 
 /* ============
@@ -272,6 +261,7 @@ nav li:hover > ul {
         float: right;
         text-align:center;
         width: 28%;
+        height: 300px;
     }
 }
 
