@@ -168,36 +168,18 @@ nav li:hover > ul {
 /* ==========================================================================
   hover in the social media
    ========================================================================== */
+   .over
+   {display:block;
 
-   .miniatura{
-   z-index: 1001;
-   text-decoration: none;
-   }
-   .miniatura img {
-   border: 0px;
-   }
-   .miniatura span {
-   position: absolute;
-   text-decoration: none;
-   visibility: hidden;
-   border: 0px;
-   top:0px;
-   left:0px;
-   }
-   .miniatura:hover span {
-   visibility: visible;
-   overflow:visible;
-   z-index: 1002;
+   background-image: url(../img/twitter.png);
+   background-repeat: no-repeat;
    }
 
-
-
-
-
-
-
-
-
+   .over:hover
+   {
+    background-image: url(../img/twitterH.png);
+   background-repeat: no-repeat;
+   }
 
 
 
