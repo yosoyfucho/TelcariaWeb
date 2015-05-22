@@ -116,8 +116,8 @@ body {
 
 nav ul {
     float:center;
-    margin: 0;
-    padding: 0;
+    margin: -1px;
+    padding: -1px;
     list-style-type: none;
     color:#003366;
 }
@@ -171,30 +171,13 @@ nav li:hover > ul {
     padding-top: 20px;
 }
 
-/* ==========================================================================
-  hover in the social media
-   ========================================================================== */
-   .over
-   {display:block;
-
-   background-image: url(../img/twitter.png);
-   background-repeat: no-repeat;
-   }
-
-   .over:hover
-   {
-    background-image: url(../img/twitterH.png);
-   background-repeat: no-repeat;
-   }
-
-
 
 
 /* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 400px) {
 
 /* ====================
     INTERMEDIATE: Menu
@@ -203,8 +186,9 @@ nav li:hover > ul {
     nav a {
         float:left;
         width: 10%;
-        padding: 25px 2%;
+        padding: 15px 3%;
         margin - bottom: 0;
+        padding- top: -10px;
     }
 
     nav li:first-child a {
@@ -246,8 +230,10 @@ nav li:hover > ul {
     }
 
     nav {
-        float: left;
-        width: 95%;
+        float: center;
+        width: 90%;
+        height: 65px;
+        border-radius: 5px;
     }
 
 /* ============
