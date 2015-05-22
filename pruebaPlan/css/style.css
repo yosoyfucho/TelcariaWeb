@@ -78,7 +78,18 @@ small {
 .wrapper {
 	margin: 0 auto;
 	padding: 0 10px;
-	width: 940px;
+	width: 95%;
+}
+
+.main {
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
 }
 
 /*
@@ -178,7 +189,25 @@ nav ul li {
         display: inline;
     }
 
+/*
+4 the mainº
+*/
+.main article {
+    float: left;
+    width: 57%;
+}
 
+.main aside {
+    float: right;
+    text-align:center;
+    width: 28%;
+    height: 300px;
+    background-image:url(../img/circles.png);
+    background-position: center;
+    background-size:99%;
+    background-repeat:no-repeat;
+}
+}
 
 /*
 Primary Content
