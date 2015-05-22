@@ -69,6 +69,7 @@ body {
    =================== */
    .langu{
      font-family: serif;
+     color:#003366;
      text-align: right;
      margin-bottom: -30px;
      margin-right: 3%;
@@ -101,7 +102,7 @@ body {
 
 }
 .feed {
-  background-color: #ffffcc;
+  background-color: #ffffcc
 }
 
 
