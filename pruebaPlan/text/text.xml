@@ -21,4 +21,12 @@
     <content ocur="6">&lt;p&gt;Clientes de Telcaria:&lt;/p&gt;</content>
     <content ocur="7">&lt;p&gt; &lt;ul&gt; &lt;li&gt;SaaS para impulsar la productividad del desarrollador con un proveedor neutral, plataformas de código abierto basado en estándares&lt;/li&gt; &lt;li&gt; Los operadores de red para diferenciar su plataforma en el alto crecimiento del mercado IaaS &lt;/li&gt; &lt;li&gt; Operaciones de TI de la empresa para escalar rápidamente y el apoyo demostrado seguras y asequibles, recursos de la nube flexibles, así como otras soluciones integradas&lt;/li&gt; &lt;li&gt; Tecnología Infraestructura Proveedores para permitir un rápido crecimiento en el mercado de la virtualización &lt;/li&gt; &lt;/ul&gt; &lt;/p&gt;</content>
   </home>
+  <about lang="en">
+    <header></header>
+    <content></content>
+  </about>
+  <about lang="sp">
+    <header></header>
+    <content></content>
+  </about>
 </text>
