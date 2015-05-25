@@ -327,9 +327,9 @@ Footer
 footer {
   color:white;
   width:85%;
-	padding: 60px 0;
   margin-left: 15%;
   margin-right: 15%;
+  display: inline-block;
 }
 
 #footer-info {
