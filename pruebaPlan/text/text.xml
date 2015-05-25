@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "text.dtd">
+<text>
+  <home lang="en">
+    <header>Home</header>
+    <content>&lt;p&gt;Telcaria is the advanced network service
+      virtualization company serving the dynamic network operators.&lt;/p&gt;</content>
+    <content>&lt;p&gt;Nowadays, voice and Internet access are totally commoditized. Thus Telcos are forced to compete in price, resulting in sustained trend in profit margin reduction.&lt;br&gt; What actions are needed to increase profits?&lt;/p&gt;</content>
+    <content>&lt;ul&gt;&lt;li&gt;Lower costs by combining SDN and NFV&lt;/li&gt;&lt;li&gt;Increase added value by service differentiation&lt;/li&gt;&lt;/ul&gt;</content>
+
+
+  </home>
+</text>
