@@ -329,6 +329,7 @@ footer {
     font-family:'Crete Round', Helvetica;
     color:white;
     text-align:right;
+    margin-right:3%;
     background-image:url(../img/logo_header.png);
     background-position: left bottom;
     background-size: 400px;
@@ -404,7 +405,7 @@ footer {
     font-family:'Crete Round', Helvetica;
     color:white;
     text-align:right;
-    margin-right: 4%;
+    margin-right: 5%;
     background-image:url(../img/logo_header.png);
     background-position: left bottom;
     background-size: 800px;
@@ -488,7 +489,7 @@ footer {
      font-family:'Crete Round', Helvetica;
      color:white;
      text-align:right;
-     margin-right: 3%;
+     margin-right: 5%;
      background-image:url(../img/logo_header.png);
      background-position: left bottom;
      background-size: 1240px;
