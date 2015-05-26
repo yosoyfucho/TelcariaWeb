@@ -124,6 +124,10 @@ header nav ul li a {
 	display: block;
 	margin-right: 20px;
 }
+
+header h1 {
+  margin-right: 6%;
+}
 /*
 navegation
 
@@ -259,11 +263,31 @@ Secondary Content
 #secondary-content h1 {
 	display: block;
   color:#003366;
+  font-family: 'Crete Round', serif;
 	width: 400px;
 	border-bottom: 1px solid #02b8dd;
 	padding: 0 0 20px 0;
 }
 
+#secondary-content h2 {
+	display: block;
+  color:#003366;
+  font-family: 'Crete Round', serif;
+  font-size: 20px;
+	width: 400px;
+	border-bottom: 1px solid #02b8dd;
+	padding: 0 0 20px 0;
+}
+
+#secondary-content h3 {
+	display: block;
+  color:#003366;
+  font-family: 'Crete Round', serif;
+  font-size: 15px;
+	width: 400px;
+	border-bottom: 1px solid #02b8dd;
+	padding: 0 0 10px 0;
+}
 
 #secondary-content img {
 
@@ -272,9 +296,10 @@ Secondary Content
 
 .right {
   float:right;
-  margin-left: 2%;
+  margin-left: 5%;
   margin-bottom:10%;
   padding-bottom:5%;
+  align-self: right;
 }
 
 .left {
@@ -318,6 +343,13 @@ article h4 {
 .button-2:hover {
 	background-color: #02b8dd;
 	color: #fff;
+}
+
+/*
+Probando
+*/
+#third-content {
+
 }
 
 /*
