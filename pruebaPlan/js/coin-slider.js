@@ -515,7 +515,7 @@
 
 	// default values
 	$.fn.coinslider.defaults = {
-		width: 500, // width of slider panel
+		width: 600, // width of slider panel
 		height:300, // height of slider panel
 		spw: 7, // squares per width
 		sph: 5, // squares per height
@@ -524,7 +524,7 @@
 		opacity: 0.7, // opacity of title and navigation
 		titleSpeed: 500, // speed of title appereance in ms
 		effect: '', // random, swirl, rain, straight
-		links : true, // show images as links
+		links : false, // show images as links
 		hoverPause: true, // pause on hover
 		prevText: '<',
 		nextText: '>',
