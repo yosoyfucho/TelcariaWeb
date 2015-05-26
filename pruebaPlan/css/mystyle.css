@@ -94,6 +94,7 @@ small {
     color: white;
 }
 
+
 /*
 navegation
 
@@ -161,19 +162,20 @@ nav ul li {
     Main Content
     */
     #main-content {
-    width:900px;
+    width:1000px;
     float:center;
+    display:inline-flex;
     }
+
     #main-content article {
       width: 605px;
       float:left;
-
     }
 
     #main-content aside {
       width: 200px;
       float:right;
-      text-align: right;
+      margin-left: 100px;
       height: 300px;
       background-image:url(../img/circles.png);
       background-position: center;
@@ -198,7 +200,6 @@ nav ul li {
     	text-align: justify;
       margin-left:15%;
       margin-right:17%;
-      margin-top:2%;
       border-radius:3px;
     }
 
@@ -429,9 +430,17 @@ footer {
     margin-top: -17px;
   }
 
+  nav a {
+      float:left;
+      width: 10%;
+      padding: 10px 2%;
+      margin - bottom: 0;
+      padding- top: -10px;
+  }
+
   #main-content {
     widht:850px;
-    margin-bottom: 35%;
+    margin-bottom: 10px;
     padding-bottom: 10%;
     margin-right: 15%;
     margin-left: 15%;
@@ -443,8 +452,11 @@ footer {
     width: 659px;
     float:center;
     text-align: justify;
-    margin-top:2%;
     border-radius:3px;
+  }
+
+  #secondary-content article {
+
   }
 /* ============
     WIDE: Menu
@@ -460,17 +472,22 @@ footer {
     WIDE: Main
    ============ */
 
-    .main article {
-        float: left;
-        width: 57%;
-    }
+   #main-content article {
+     width: 605px;
+     float:center;
 
-    .main aside {
-        float: right;
-        text-align:center;
-        width: 28%;
-        height: 300px;
-    }
+   }
+
+   #main-content aside {
+     width: 300px;
+     float:center;
+     text-align: center;
+     height: 300px;
+     background-image:url(../img/circles.png);
+     background-position: center;
+     background-size:89%;
+     background-repeat:no-repeat;
+   }
 
     .wrapper {
         width: 600px; /* 1140px - 10% for margins */
@@ -514,15 +531,32 @@ footer {
        float: center;
        height: 50px;
        border-radius: 5px;
-       margin-top: -20px;
+       margin-top: -25px;
      }
 
      #main-content {
        widht:1000px;
        margin-right: 15%;
        margin-left: 15%;
+       margin-bottom: -100px;
      }
 
+     #main-content article {
+       width: 600px;
+       float:left;
+       margin-right: 10px;
+
+     }
+
+     #main-content aside {
+       width: 300px;
+       float:right;
+       height: 300px;
+       background-image:url(../img/circles.png);
+       background-position: center;
+       background-size:89%;
+       background-repeat:no-repeat;
+     }
      #secondary-content {
        background-color: #ffffcc;
        float:center;
@@ -532,6 +566,9 @@ footer {
        text-align: justify;
        border-radius:3px;
 
+     }
+     #secondary-content{
+       display:inline-flex;
      }
 
 
