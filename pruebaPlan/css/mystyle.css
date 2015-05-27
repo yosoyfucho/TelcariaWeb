@@ -2,7 +2,7 @@
 
 html {
     background-image: url(../img/background.jpg);
-    background-size:220%;
+    background-size:230%;
     font-size: 1em;
     line-height: 1.4;
 }
@@ -14,7 +14,8 @@ p {
 	line-height: 20px;
 	margin-bottom: 20px;
 }
-£
+
+
 
 h1 {
 	font-family: 'Crete Round', serif;
@@ -295,7 +296,6 @@ Footer
 
 footer {
   color:white;
-  width:85%;
   margin-left: 15%;
   margin-right: 15%;
   display: inline-block;
@@ -386,11 +386,16 @@ footer {
     .oldie nav a {
         margin: 0 0.7%;
     }
+
+    footer {
+      width:375px;
+    }
 }
 
 
 /* Para resolución mediana */
 @media only screen and (min-width: 768px) {
+
 
   .wrapper {
       width: 700px; /* 1140px - 10% for margins */
@@ -404,10 +409,10 @@ footer {
     margin-right: 5%;
     background-image:url(../img/logo_header.png);
     background-position: left bottom;
-    background-size: 800px;
+    background-size: 850px;
     background-repeat:no-repeat;
     padding-top:80px;
-    margin-top: -60px;
+    margin-top: -110px;
     }
 
   header h1{
@@ -421,7 +426,7 @@ footer {
     float: center;
     height: 50px;
     border-radius: 5px;
-    margin-top: -17px;
+    margin-top: -20px;
   }
 
   nav a {
@@ -434,7 +439,8 @@ footer {
 
   #main-content {
     widht:850px;
-    display:inline-flex;
+    height: 800px;
+    display:-inline-flex;
     margin-right: 15%;
     margin-left: 15%;
   }
@@ -463,6 +469,8 @@ footer {
     float:center;
     text-align: justify;
     border-radius:3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   #secondary-content article {
@@ -511,8 +519,8 @@ footer {
      background-position: left bottom;
      background-size: 1240px;
      background-repeat:no-repeat;
-     padding-top:80px;
-     margin-top: -60px;
+     padding-top:100px;
+     margin-top: -120px;
      }
      header h1{
        font-size: 2.6em;
@@ -526,7 +534,7 @@ footer {
        float: center;
        height: 50px;
        border-radius: 5px;
-       margin-top: -25px;
+       margin-top: -20px;
      }
 
      #main-content {
