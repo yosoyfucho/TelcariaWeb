@@ -549,7 +549,7 @@ footer {
      #main-content {
        float:center;
        color:#003366;
-       width: 1002px;
+       width: 1004px;
        padding-top: 10px;
        text-align: justify;
        border-radius:3px;
@@ -579,9 +579,17 @@ footer {
      footer {
        width:1200px;
      }
+     .wrapper {
+         width: 1000px; /* 1140px - 10% for margins */
+         margin: 0 auto;
+     }
 
-    .wrapper {
+    .wrapper1 {
         width: 1000px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+    .wrapper2 {
+        width: 300px; /* 1140px - 10% for margins */
         margin: 0 auto;
     }
 }
