@@ -1,5 +1,11 @@
-xmlDoc=loadXMLDoc("/text/text.xml");
+(function(search) {
 
-x=xmlDoc.getElementsByTagName(Tagname)[0].getAttributeNode("lang");
-txt=x.nodeValue;
-document.write(txt);
+
+  xmlDoc=loadXMLDoc("../text/text.xml");
+
+  x=xmlDoc.getElementsByTagName(search)[0].getAttributeNode("lang");
+  var aux = x.length;
+  for (var i = 0; i < array.length; i++) {
+    array[i]=x.nodeValue;
+  }
+}());

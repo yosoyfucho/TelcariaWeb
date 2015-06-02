@@ -22,11 +22,13 @@
     <content ocur="7">&lt;p&gt; &lt;ul&gt; &lt;li&gt;SaaS para impulsar la productividad del desarrollador con un proveedor neutral, plataformas de código abierto basado en estándares&lt;/li&gt; &lt;li&gt; Los operadores de red para diferenciar su plataforma en el alto crecimiento del mercado IaaS &lt;/li&gt; &lt;li&gt; Operaciones de TI de la empresa para escalar rápidamente y el apoyo demostrado seguras y asequibles, recursos de la nube flexibles, así como otras soluciones integradas&lt;/li&gt; &lt;li&gt; Tecnología Infraestructura Proveedores para permitir un rápido crecimiento en el mercado de la virtualización &lt;/li&gt; &lt;/ul&gt; &lt;/p&gt;</content>
   </home>
   <about lang="en">
-    <header></header>
-    <content></content>
+    <header>About Us</header>
+    <content ocur="1">&lt;p&gt;Telcaria is an SME providing advanced services to network operatores worldwide. We partner with equipment manufacturers to redesign their products towards a cloud-based network infrastructure, we also work on Web Technology developments, Internet Services and ICT solutions integration. Moreover, Telcaria has a department specifically focused on R&D to exploit all the recent advances in technologies in our products. Our team is composed of young bright researchers and developers. A large fraction of our employees hold a PhD in Telecomunications, Electrical Engineering or Computer Science.&lt;/p&gt;</content>
+    <content ocur="2">&lt;p&gt;Telcaria is headquartered in Madrid, Spain. The company has collaborations with research institute IMDEA Networks and top Universities in the area: U. Carlos III of Madrid, U. Politecnica de Madrid and U. Alcala.&lt;/p&gt;</content>
+    <content ocur="3">&lt;p&gt;If you feel like joining our team, please visit the&lt;a href="contact.html"&gt; 'Contact Us'&lt;/a&gt; section and send us your information and interests.&lt;/p&gt;</content>
   </about>
   <about lang="sp">
-    <header></header>
-    <content></content>
+    <header>Acerca de nosotros</header>
+    <content ocur="1"></content>
   </about>
 </text>
