@@ -13,7 +13,7 @@ body {
   font-size: 15px;
   line-height: 20px;
   font-family: 'Lato', Calibri, Arial, sans-serif;
-  background-image: url("images/original/background.jpg");
+  background-image: url("../images/original/background.jpg");
   color: #b3b9bf;
 }
 h1 {
@@ -116,7 +116,7 @@ p {
 
 
 a {
-  color: #888;
+  color: yellow;
   text-decoration: none;
 }
 
@@ -584,7 +584,7 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
   background-attachment: fixed;
 }
 .parlex.service-parlex {
-  background-image: none;
+  background-image: url('../images/original/background.jpg');
   background-position: 0% 0%;
   background-size: auto;
   background-repeat: repeat;
@@ -950,11 +950,11 @@ box-shadow: 5px 5px 0px #20AE61;
   text-align: center;
 }
 .fixed-header {
+  background-color: #0197fd;
   position: fixed;
   z-index: 999;
   width: 100%;
   height: auto;
-  background-color: rgba(255, 255, 255, 1);
 }
 .navbar {
 }
@@ -966,7 +966,7 @@ box-shadow: 5px 5px 0px #20AE61;
   background-color: #ed5565;
 }
 .parlex5 {
-  background-image: url('../images/Fotolia_28906971_Subscription_XXL.jpg');
+  background-image: url('../images/original/background.jpg');
   background-size: 350px;
   background-repeat: repeat;
   background-attachment: fixed;
