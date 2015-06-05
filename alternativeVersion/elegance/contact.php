@@ -3,8 +3,8 @@ $field_name = $_POST['cf_name'];
 $field_email = $_POST['cf_email'];
 $field_message = $_POST['cf_message'];
 
-$mail_to = 'newthinks@live.com';
-$subject = 'Message from a site visitor '.$field_name;
+$mail_to = 'info@telcaria.com';
+$subject = 'Message from contact form '.$field_name;
 
 $body_message = 'From: '.$field_name."\n";
 $body_message .= 'E-mail: '.$field_email."\n";
