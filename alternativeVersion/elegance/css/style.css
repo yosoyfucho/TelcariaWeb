@@ -566,11 +566,11 @@ input.sp-selector-5:checked ~ .sp-content .sp-slider > li:nth-child(5){
   padding-top: 30px;
   padding-bottom: 30px;
   font-weight: 700;
+  color:white;
 }
 .menu-li:hover {
   border-top-style: none;
-  background-color: #2fde8f;
-  color: white;
+  color:  #FFFF99;
   font-weight: 700;
 }
 .parlex {
@@ -1026,7 +1026,7 @@ box-shadow: 5px 5px 0px #20AE61;
 .parlex6 {
   position: static;
   top: 2px;
-  background-image: url('../images/map-top.png');
+  background-image: url('../images/original/background.jpg');
   background-position: 50% 100%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -1119,12 +1119,12 @@ box-shadow: 5px 5px 0px #20AE61;
   text-align: center;
 }
 .experience {
-  background-image: url('../images/example-bg.png');
+  background-image: url('../images/original/background.jpg');
   background-size: 125px;
 }
 .exp {
   background-color: transparent;
-  background-image: url('../images/example-bg.png');
+  background-image: url('../images/original/background.jpg');
   background-position: 0% 0%;
   background-size: 125px;
   background-repeat: repeat;
@@ -1162,7 +1162,7 @@ box-shadow: 5px 5px 0px #20AE61;
 
 }
 .team-parlex {
-  background-image: url('../images/team.png');
+  background-image: url('../images/original/background.jpg');
   background-size: 350px;
   background-attachment: fixed;
 }
@@ -1320,14 +1320,14 @@ font-size: 18px;
 
 .service-parlex {
   padding-top: 0px;
-  background-image: url('../images/parlex.png');
+  background-image: url('../images/original/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
 .portfolio-parlex {
-  background: url('../images/parlex.png');
+  background: url('../images/original/background.jpg');
   padding-top: 0px;
   background-size: cover;
   background-repeat: no-repeat;
