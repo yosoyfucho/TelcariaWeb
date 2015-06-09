@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE text SYSTEM "text.dtd">
+<text>
+  <home lang="en">
+    <header>Home</header>
+    <content ocur="1">&lt;p&gt;Telcaria is the advanced network service virtualization company serving the dynamic network operators.&lt;/p&gt;</content>
+    <content ocur="2">&lt;p&gt;Nowadays, voice and Internet access are totally commoditized. Thus Telcos are forced to compete in price, resulting in sustained trend in profit margin reduction.&lt;br&gt; What actions are needed to increase profits?&lt;/p&gt;</content>
+    <content ocur="3">&lt;ul&gt;&lt;li&gt;Lower costs by combining SDN and NFV&lt;/li&gt;&lt;li&gt;Increase added value by service differentiation&lt;/li&gt;&lt;/ul&gt;</content>
+    <content ocur="4">&lt;p&gt;That is, Telco Virtualization: from Hardware-based companies to Software-based companies.&lt;/p&gt;</content>
+    <content ocur="5">&lt;p&gt;Telcaria provides products and services for Software-Based Telcos, but we also provide Web Technology developments, Internet Services and ICT solutions integration at request. Please visit the 'Services' section for more info.&lt;/p&gt;</content>
+    <content ocur="6">&lt;p&gt;Telcaria costumers:&lt;/p&gt;</content>
+    <content ocur="7">&lt;p&gt; &lt;ul&gt; &lt;li&gt; SaaS to drive developer productivity with a vendor-neutral, standard-based open-source platforms &lt;/li&gt; &lt;li&gt; Network Operators to differentiate their platform in the high-growth IaaS marketplace &lt;/li&gt; &lt;li&gt; Enterprise IT Operations to quickly scale up and support proven secure, affordable, flexible cloud resources, as well as other integrated solutions &lt;/li&gt; &lt;li&gt; Infrastructure Technology Suppliers to enable a rapid growth across the virtualization marketplace &lt;/li&gt; &lt;/ul&gt; &lt;/p &gt; </content>
+  </home>
+  <home lang="sp">
+    <header>Inicio</header>
+    <content ocur="1">&lt;p&gt;Telcaria es la compañía de virtualización de servicios avanzados de red al servicio de los operadores de redes dinámicas.&lt;/p&gt;</content>
+    <content ocur="2">&lt;p&gt;Hoy en día, la voz y acceso a Internet son totalmente de consumo masivo. De este modo las empresas de telecomunicaciones se ven obligados a competir en precio, lo que resulta en la tendencia sostenida en la reducción de margen de beneficio..&lt;br&gt; ¿Qué acciones son necesarias para aumentar los beneficios?&lt;/p&gt;</content>
+    <content ocur="3">&lt;ul&gt;&lt;li&gt;Menores costos mediante la combinación de SDN y NFV&lt;/li&gt;&lt;li&gt;Aumentar el valor agregado por la diferenciación de servicios&lt;/li&gt;&lt;/ul&gt;</content>
+    <content ocur="4">&lt;p&gt;Es decir, Telco virtualización: desde empresas basadas en hardware a empresas basadas en software.&lt;/p&gt;</content>
+    <content ocur="5">&lt;p&gt;Telcaria ofrece productos y servicios para empresas de telecomunicaciones de software basada, pero también ofrecemos desarrollos de tecnología Web, Internet y la integración de soluciones de TIC en la petición. Por favor, visite la sección "Servicios" para obtener más información.&lt;/p&gt;</content>
+    <content ocur="6">&lt;p&gt;Clientes de Telcaria:&lt;/p&gt;</content>
+    <content ocur="7">&lt;p&gt; &lt;ul&gt; &lt;li&gt;SaaS para impulsar la productividad del desarrollador con un proveedor neutral, plataformas de código abierto basado en estándares&lt;/li&gt; &lt;li&gt; Los operadores de red para diferenciar su plataforma en el alto crecimiento del mercado IaaS &lt;/li&gt; &lt;li&gt; Operaciones de TI de la empresa para escalar rápidamente y el apoyo demostrado seguras y asequibles, recursos de la nube flexibles, así como otras soluciones integradas&lt;/li&gt; &lt;li&gt; Tecnología Infraestructura Proveedores para permitir un rápido crecimiento en el mercado de la virtualización &lt;/li&gt; &lt;/ul&gt; &lt;/p&gt;</content>
+  </home>
+  <about lang="en">
+    <header></header>
+    <content></content>
+  </about>
+  <about lang="sp">
+    <header></header>
+    <content></content>
+  </about>
+</text>
