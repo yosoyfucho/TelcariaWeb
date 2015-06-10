@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Telcaria Web - Work with us</title>
+    <title><?php echo $lang['TITLE_WORK']; ?></title>
     <link rel="stylesheet" href="css/mystyle.css">
     <link href='http://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" type="image/x-icon" href="img/circles.png">
@@ -36,11 +36,11 @@
             </a>
           </li>
         </li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="research.html">Research</a></li>
+        <li><a href="about.html"><?php echo $lang['MENU_ABOUT_US']; ?></a></li>
+        <li><a href="services.html"><?php echo $lang['MENU_SERVICES']; ?></a></li>
+        <li><a href="research.html"><?php echo $lang['MENU_RESEARCH']; ?></a></li>
         <li>
-          <a href="work.html" style="color:#ffff99">Work with us!
+          <a href="work.html" style="color:#ffff99"><?php echo $lang['MENU_WORK']; ?>
             <img src="img/dot.png" alt="dot icon" style="width:5px;height:5px;align:center"/>
 
           </a>
@@ -57,9 +57,9 @@
 <div id="secondary-content">
   <div class="wrapper">
   <article>
-    <h1>Work with us!</h1>
+    <h1><?php echo $lang['WORK_TITLE']; ?></h1>
     <p>
-      We are currently hiring post-doc researchers and PhD students! For more information, please email us at: <a href="mailto:info@telcaria.com?subject=feedback">info@telcaria.com</a>
+      <?php echo $lang['WORK_FIRST']; ?>
     </p>
   </article>
 
