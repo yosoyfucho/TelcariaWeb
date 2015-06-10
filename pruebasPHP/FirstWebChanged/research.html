@@ -36,14 +36,14 @@
             </a>
           </li>
         </li>
-        <li><a href="about.html">About us</a></li>
-        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html"><?php echo $lang['MENU_ABOUT_US']; ?></a></li>
+        <li><a href="services.html"><?php echo $lang['MENU_SERVICES']; ?></a></li>
         <li>
-          <a href="research.html" style="color:#ffff99">Research
+          <a href="research.html" style="color:#ffff99"><?php echo $lang['MENU_RESEARCH']; ?>
             <img src="img/dot.png" alt="dot icon" style="width:5px;height:5px;align:center"/>
           </a>
         </li>
-        <li><a href="work.html">Work with us!</a></li>
+        <li><a href="work.html"><?php echo $lang['MENU_WORK']; ?></a></li>
         <li>
           <a href="contact.html">
             <img src="img/mailB.png" alt="mail Icon" style="width:25px;height:25px" onmouseover="this.src='img/mailH.png';" onmouseout="this.src='img/mailB.png';" />
@@ -56,12 +56,11 @@
 <div id="secondary-content">
   <div class="wrapper">
   <article>
-    <h1>Research</h1>
+    <h1><?php echo $lang['RESEARCH_TITLE']; ?></h1>
     <p>
-      In Telcaria, we consider research is the cornerstone of the quality of our services. Therefore, we are always looking for collaborations in research projects
-	  and we are currently working in the following two:
-		<li><a href="http://www.netide.eu/">NetIDE</a>: An integrated development environment for portable network applications</li>
-        <li>Superfluidity</li>
+      <?php echo $lang['RESEARCH_FIRST']; ?>
+		<li><?php echo $lang['RESEARCH_FIRST_UL_1']; ?></li>
+    <li><?php echo $lang['RESEARCH_FIRST_UL_2']; ?></li>
 	</p>
   </article>
 
