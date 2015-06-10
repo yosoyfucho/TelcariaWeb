@@ -1,0 +1,595 @@
+/* Para todos los tamaños */
+
+html {
+    background-image: url(../img/background.jpg);
+    background-size:230%;
+    font-size: 1em;
+    line-height: 1.4;
+}
+body {
+	font: normal 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+
+p {
+	line-height: 20px;
+	margin-bottom: 20px;
+}
+
+
+
+h1 {
+	font-family: 'Crete Round', serif;
+	font-weight: bold;
+	color: white;
+	font-size: 36px;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-weight: 300;
+	color: #444;
+	font-size: 55px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h3 {
+	font-size: 30px;
+	color: #444;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h4 {
+	font-size: 24px;
+	color: #white;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-size: 15px;
+	color: #444;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #02b8dd;
+}
+
+strong {
+	font-weight: bold;
+}
+
+small {
+	font-size: 13px;
+	font-style: italic;
+}
+
+.clear {
+	clear: both;
+}
+
+.wrapper {
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 95%;
+}
+
+.main {
+}
+
+.main article h1 {
+    font-size: 2em;
+}
+
+.main aside {
+    color: white;
+}
+
+
+/*
+navegation
+
+*/
+nav {
+  background-color:#0197fd;
+  color:white;
+  float: center;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: -20px;
+}
+
+nav ul {
+    float:center;
+    margin: -1px;
+    padding: -1px;
+    list-style-type: none;
+    color:white;
+}
+
+nav a {
+  float:left;
+  width: 7%;
+  padding: 10px 2%;
+  margin - bottom: 0;
+  padding- top: -10px;
+  color:white;
+  display:block;
+}
+
+nav a:visited {
+    color: white;
+}
+
+nav a:hover {
+    color:#ffff99;
+
+}
+
+nav li:hover > ul {
+  display:block;
+}
+
+nav a {
+    float:left;
+    width: 7%;
+    padding: 10px 2%;
+    margin - bottom: 0;
+    padding- top: -10px;
+}
+
+nav li:first-child a {
+    margin-left: 0;
+}
+
+nav li:last-child a {
+    margin-right: 0;
+}
+nav ul li {
+        display: inline;
+    }
+
+    /*
+    Main Content
+    */
+
+
+    #main-content {
+      color:#003366;
+      float:center;
+      padding: 10px 20px;
+      text-align: justify;
+      margin-left:15%;
+      margin-right:15%;
+      border-radius:3px;
+    }
+
+    #main-content a {
+      color:yellow;
+
+    }
+
+    #main-content h1 {
+      display: block;
+      color:#003366;
+      font-family: 'Crete Round', serif;
+      width: 400px;
+      border-bottom: 1px solid #02b8dd;
+      padding: 0 0 20px 0;
+    }
+
+    #main-content h2 {
+      display: block;
+      color:#003366;
+      font-family: 'Crete Round', serif;
+      font-size: 20px;
+      width: 400px;
+      border-bottom: 1px solid #02b8dd;
+      padding: 0 0 20px 0;
+    }
+
+    #main-content h3 {
+      display: block;
+      color:#003366;
+      font-family: 'Crete Round', serif;
+      font-size: 15px;
+      width: 400px;
+      border-bottom: 1px solid #02b8dd;
+      padding: 0 0 10px 0;
+    }
+
+    #main-content img {
+
+
+    }
+
+    /*
+    Secondary Content
+    */
+
+    #secondary-content {
+    	background-color: #ffffcc;
+      color:#003366;
+      float:center;
+    	padding: 10px 20px;
+    	text-align: justify;
+      margin-left:15%;
+      margin-right:17%;
+      border-radius:3px;
+    }
+
+    #secondary-content h1 {
+    	display: block;
+      color:#003366;
+      font-family: 'Crete Round', serif;
+    	width: 400px;
+    	border-bottom: 1px solid #02b8dd;
+    	padding: 0 0 20px 0;
+    }
+
+    #secondary-content h2 {
+    	display: block;
+      color:#003366;
+      font-family: 'Crete Round', serif;
+      font-size: 20px;
+    	width: 400px;
+    	border-bottom: 1px solid #02b8dd;
+    	padding: 0 0 20px 0;
+    }
+
+    #secondary-content h3 {
+    	display: block;
+      color:#003366;
+      font-family: 'Crete Round', serif;
+      font-size: 15px;
+    	width: 400px;
+    	border-bottom: 1px solid #02b8dd;
+    	padding: 0 0 10px 0;
+    }
+
+    #secondary-content img {
+
+
+    }
+
+    .right {
+      float:right;
+      margin-left: 5%;
+
+    }
+
+    .left {
+      float:left;
+      margin-right: 5%;
+      margin-bottom:10%;
+      padding-bottom:5%;
+    }
+
+    article h4 {
+    	border-bottom: 1px solid #02b8dd;
+    	padding-bottom: 20px;
+    }
+
+    .more-link {
+    	border: 1px solid #02b8dd;
+    	color: #02b8dd;
+    	padding: 6px 20px;
+    	border-radius: 3px;
+    }
+
+    .more-link:hover {
+    	background-color: #02b8dd;
+    	color: #fff;
+    }
+
+
+
+    .button-2 {
+    	display: block;
+    	margin: 0 auto;
+    	border: 2px solid #02b8dd;
+    	color: #02b8dd;
+    	border-radius: 3px;
+    	width: 180px;
+    	height: 50px;
+    	font-size: 20px;
+    	line-height: 50px;
+    }
+
+    .button-2:hover {
+    	background-color: #02b8dd;
+    	color: #fff;
+    }
+
+
+
+
+/*
+Footer
+*/
+
+footer {
+  color:white;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: inline-block;
+}
+
+#footer-info {
+  color:white;
+	width: 70%;
+	float: left;
+	margin-top: 10px;
+}
+
+#footer-links {
+  text-align: right;
+	width: 30%;
+	float: right;
+}
+
+#footer-links ul {
+	width: 150px;
+}
+
+#footer-links ul li {
+	margin: 10px 10px;
+  display:inline;
+}
+
+/* Para resolución pequeña */
+
+@media only screen and (min-width: 400px) {
+
+  header {
+    font-family:'Crete Round', Helvetica;
+    color:white;
+    text-align:right;
+    margin-right:3%;
+    background-image:url(../img/logo_header.png);
+    background-position: left bottom;
+    background-size: 400px;
+    background-repeat:no-repeat;
+    padding-top:80px;
+    margin-top: -60px;
+    }
+
+    header h1{
+      font-size: 1em;
+    }
+
+    nav {
+      width:300px;
+      background-color:#0197fd;
+      color:white;
+      float: center;
+      height: 50px;
+      border-radius: 5px;
+      margin-right: 15%;
+      margin-left: 15%;
+      margin-top: -20px;
+    }
+
+
+
+/* ====================
+    INTERMEDIATE: Menu
+   ==================== */
+
+    nav a {
+        float:left;
+        width: 10%;
+        padding: 10px 2%;
+        margin - bottom: 0;
+        padding- top: -10px;
+    }
+    nav ul {
+
+    }
+
+
+
+/* ========================
+    INTERMEDIATE: IE Fixes
+   ======================== */
+
+    nav ul li {
+        display: inline;
+    }
+
+    .oldie nav a {
+        margin: 0 0.7%;
+    }
+
+    footer {
+      width:375px;
+    }
+}
+
+
+/* Para resolución mediana */
+@media only screen and (min-width: 768px) {
+
+
+  .wrapper {
+      width: 700px; /* 1140px - 10% for margins */
+      margin: 0 auto;
+  }
+
+  header {
+    font-family:'Crete Round', Helvetica;
+    color:white;
+    text-align:right;
+    margin-right: 5%;
+    background-image:url(../img/logo_header.png);
+    background-position: left bottom;
+    background-size: 850px;
+    background-repeat:no-repeat;
+    padding-top:80px;
+    margin-top: -110px;
+    }
+
+  header h1{
+    font-size: 1.75em;
+  }
+
+  nav {
+    width:700px;
+    background-color:#0197fd;
+    color:white;
+    float: center;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: -20px;
+  }
+
+  nav a {
+      float:left;
+      width: 10%;
+      padding: 10px 2%;
+      margin - bottom: 0;
+      padding- top: -10px;
+  }
+
+  #main-content {
+    color:#003366;
+    width: 659px;
+    float:center;
+    text-align: justify;
+    border-radius:3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+
+
+  #secondary-content {
+    background-color: #ffffcc;
+    color:#003366;
+    width: 659px;
+    float:center;
+    text-align: justify;
+    border-radius:3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+
+/* ============
+    WIDE: Menu
+   ============ */
+
+    .title {
+        float: right;
+    }
+
+
+
+/* ============
+    WIDE: Main
+   ============ */
+
+
+
+    .wrapper {
+        width: 600px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+
+    footer {
+      width:720px;
+    }
+}
+
+
+
+@media only screen and (min-width: 1140px) {
+
+/* ===============
+    Maximal Width
+   =============== */
+
+   header {
+     font-family:'Crete Round', Helvetica;
+     color:white;
+     text-align:right;
+     margin-right: 5%;
+     background-image:url(../img/logo_header.png);
+     background-position: left bottom;
+     background-size: 1240px;
+     background-repeat:no-repeat;
+     padding-top:100px;
+     margin-top: -120px;
+     }
+     header h1{
+       font-size: 2.6em;
+       text-align: right;
+     }
+
+     nav {
+       width:1044px;
+       background-color:#0197fd;
+       color:white;
+       float: center;
+       height: 50px;
+       border-radius: 5px;
+       margin-top: -20px;
+     }
+
+     #main-content {
+       float:center;
+       color:#003366;
+       width: 1004px;
+       padding-top: 10px;
+       text-align: justify;
+       border-radius:3px;
+
+     }
+     #main-content{
+       display:inline-flex;
+     }
+
+
+     #secondary-content {
+       background-color: #ffffcc;
+       float:center;
+       color:#003366;
+       width: 1002px;
+       padding-top: 10px;
+       text-align: justify;
+       border-radius:3px;
+
+     }
+     #secondary-content{
+       display:inline-flex;
+     }
+
+
+
+     footer {
+       width:1200px;
+     }
+     .wrapper {
+         width: 1000px; /* 1140px - 10% for margins */
+         margin: 0 auto;
+     }
+
+    .wrapper1 {
+        width: 1000px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+    .wrapper2 {
+        width: 300px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+}
