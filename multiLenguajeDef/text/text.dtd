@@ -1,0 +1,16 @@
+<!ELEMENT text (home*,about*,services*,research*,work*,contact*)>
+<!ELEMENT home (header*,content+)>
+<!ATTLIST home lang (en|sp) #REQUIRED>
+<!ELEMENT about (header*,content+)>
+<!ATTLIST about lang (en|sp) #REQUIRED>
+<!ELEMENT services (header*,content+)>
+<!ATTLIST services lang (en|sp) #REQUIRED>
+<!ELEMENT research (header*,content+)>
+<!ATTLIST research lang (en|sp) #REQUIRED>
+<!ELEMENT work (header*,content+)>
+<!ATTLIST work lang (en|sp) #REQUIRED>
+<!ELEMENT contact (header*,content+)>
+<!ATTLIST contact lang (en|sp) #REQUIRED>
+<!ELEMENT header (#PCDATA)>
+<!ELEMENT content (#PCDATA)>
+<!ATTLIST content ocur CDATA #IMPLIED>
